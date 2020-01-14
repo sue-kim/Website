@@ -52,7 +52,7 @@ var popup = new mapboxgl.Popup({
 map.on('load', () => {
   map.addSource("data", {
     'type': 'geojson',
-    'data': 'https://gist.githubusercontent.com/Suekim37/f8317d8458a37e2f952f96e75c0793ee/raw/a9744de2970b820422497a0b1b7cc4806057c8d2/final_dataset_n.geojson'
+    'data': 'https://gist.githubusercontent.com/sue-kim/f8317d8458a37e2f952f96e75c0793ee/raw/a9744de2970b820422497a0b1b7cc4806057c8d2/final_dataset_n.geojson'
   });
 
   map.addLayer({
