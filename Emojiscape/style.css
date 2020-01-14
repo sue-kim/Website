@@ -1,6 +1,6 @@
 body {
   flex-flow: row wrap;
-  height: 90vh;
+  height: 70vh;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -27,7 +27,7 @@ h6{
   }
  
 .mapboxgl-map{
-  height:90vh !important;
+  height:75vh !important;
 }
 
 .font {
@@ -45,18 +45,18 @@ h6{
 }
 
 #map {
-  height: 90vh;
+  height: 70vh;
   position: absolute;
-  left: 25%;
+  left: 20%;
   top: 0;
   bottom: 0;
-  width: 75%;
+  width: 55%;
 }
 
 .map-overlay {
-  height: 90vh;
+  height: 70vh;
   position: absolute;
-  width: 25%;
+  width: 20%;
   top: 0;
   bottom: 0;
   left: 0;
@@ -87,7 +87,7 @@ h6{
 
 .map-overlay .listing {
   overflow: auto;
-  max-height: 45vh;
+  max-height: 30vh;
 }
 
 .map-overlay .listing>* {
@@ -113,9 +113,9 @@ h6{
 #emoji {
   position: absolute;
   margin: 0;
-  top: 55vh;
+  top: 40vh;
   /* border: 1px black solid; */
-  width: 25%;
+  width: 20%;
   padding: 1rem 1.5rem;
   left: 0px;
   height: 35vh;
@@ -135,7 +135,7 @@ padding-bottom:1rem;
 .caption{
 overflow: hidden;
 display: -webkit-box;
--webkit-line-clamp: 5;
+-webkit-line-clamp: 3;
 -webkit-box-orient: vertical;  
 }
 
