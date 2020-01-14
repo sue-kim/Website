@@ -1,0 +1,195 @@
+body {
+  flex-flow: row wrap;
+  height: 90vh;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+h4{
+font-size:1.4rem;
+font-weight:400;
+width:50%;
+padding-top:3rem;
+text-align: center;
+margin:0 auto;
+line-height:2rem;
+}
+h6{
+  font-size:1.1rem;
+  font-weight:400;
+  width:50%;
+  padding-top:3rem;
+  text-align: center;
+  margin:0 auto;
+  line-height:2rem;
+  }
+ 
+.mapboxgl-map{
+  height:90vh !important;
+}
+
+.font {
+  font-family: 'Bebas Neue';
+  font-size: 1.2rem;
+}
+
+
+#title {
+  color: rgb(228, 0, 76);
+  font-size: 1.6rem;
+  text-decoration: none;
+  font-family: 'Bebas Neue';
+  align-items:left;
+}
+
+#map {
+  height: 90vh;
+  position: absolute;
+  left: 25%;
+  top: 0;
+  bottom: 0;
+  width: 75%;
+}
+
+.map-overlay {
+  height: 90vh;
+  position: absolute;
+  width: 25%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  font: 12px/20px 'Roboto', Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  
+  /* overflow: hidden; */
+}
+
+.map-overlay fieldset {
+
+  display: none;
+  background: #ddd;
+  border: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.map-overlay input {
+  display: block;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 0;
+
+}
+
+.map-overlay .listing {
+  overflow: auto;
+  max-height: 45vh;
+}
+
+.map-overlay .listing>* {
+  display: block;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.map-overlay .listing a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgb(82, 82, 82);
+  text-decoration: none;
+}
+
+.map-overlay .listing a:last-child {
+  border: none;
+}
+
+.map-overlay .listing a:hover {
+  background: #ff085a11;
+}
+
+#emoji {
+  position: absolute;
+  margin: 0;
+  top: 55vh;
+  /* border: 1px black solid; */
+  width: 25%;
+  padding: 1rem 1.5rem;
+  left: 0px;
+  height: 35vh;
+  background: #efefef;
+  overflow:scroll;
+  font-size: 0.9rem;
+  overflow: hidden;
+}
+
+.likes{
+position:absolute;
+bottom:0;
+padding-bottom:1rem;
+
+}
+
+.caption{
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 5;
+-webkit-box-orient: vertical;  
+}
+
+
+
+.fa-laugh-squint{
+  color: #FABC3C;
+}
+
+.fa-sad-tear {
+  color: #18206F;
+}
+
+.fa-angry{
+  color: #BD1E1E;
+}
+
+.fa-meh {
+  color: #003049;
+}
+
+.fa-smile{
+  color: #62BEC1;
+}
+
+.fa-meh-rolling-eyes {
+  color: #317B22;
+}
+
+.fa-flushed{
+  color: #820263;
+}
+
+.fa-heart{
+  color: rgb(253, 17, 68);
+}
+
+.mapboxgl-popup-content{
+font: 200 13px / 22px 'Roboto', Helvetica, sans-serif;
+color: #424242;
+padding:1rem;
+width:300px;
+background:#ffffffc5;
+}
+
+.mapboxgl-popup-content-wrapper{
+  padding:1%;
+}
+
+#console {
+  position: absolute;
+  width: 240px;
+  margin: 10px;
+  right:0;
+  padding: 10px 20px;
+  background-color: rgb(230, 169, 169);
+}
