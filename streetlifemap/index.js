@@ -19,7 +19,7 @@ var tpl_weights = {}
 
 for (var i = 0; i < tpl_factors.length; i++) {
     tpl_scores[tpl_factors[i]] = 5
-    tpl_weights[tpl_factors[i]] = 0
+    tpl_weights[tpl_factors[i]] = 5
 }
 
 
