@@ -18,7 +18,7 @@ var tpl_scores = {}
 var tpl_weights = {}
 
 for (var i = 0; i < tpl_factors.length; i++) {
-    tpl_scores[tpl_factors[i]] = 0
+    tpl_scores[tpl_factors[i]] = 5
     tpl_weights[tpl_factors[i]] = 0
 }
 
@@ -227,7 +227,7 @@ function render_graph() {
 
 //rendering the score
 function render_score() {
-    var new_score = 5
+    var new_score = 0
     for (var i = 0; i < tpl_factors.length; i++) {
         new_score += tpl_weights[tpl_factors[i]] * tpl_scores[tpl_factors[i]]
     }
