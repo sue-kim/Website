@@ -227,7 +227,7 @@ function render_graph() {
 
 //rendering the score
 function render_score() {
-    var new_score = 0
+    var new_score = 5
     for (var i = 0; i < tpl_factors.length; i++) {
         new_score += tpl_weights[tpl_factors[i]] * tpl_scores[tpl_factors[i]]
     }
