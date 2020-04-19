@@ -53,6 +53,10 @@ map.on("load", function () {
         var astreet = e.features[0].properties.art_n;
         var jstreet = e.features[0].properties.food_n;
         var rstreet = e.features[0].properties.park_n;
+        
+        tpl_scores['awe'] = 5
+        tpl_scores['joy'] = 5
+        tpl_scores['relax'] = 5
 
         // register score to the global score container(global)
         tpl_scores['awe'] = astreet * 7 + jstreet * 2 + rstreet * 1;
