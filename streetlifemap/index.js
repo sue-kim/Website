@@ -193,7 +193,7 @@ function render_graph() {
     myRadarChart = new Chart(ctx, {
         type: 'radar',
         data: {
-            labels: ['🤩', '😍', '😌'],
+            labels: ['Excited 🤩', 'Joy 😍', 'Relaxed 😌'],
             datasets: [{
                 backgroundColor: 'rgba(255, 99, 132,0.2)',
                 borderColor: 'rgba(255, 99, 132,1)',
