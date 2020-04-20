@@ -59,8 +59,8 @@ map.on("load", function () {
         tpl_scores['relax'] = 5
 
         // register score to the global score container(global)
-        tpl_scores['awe'] = astreet * 7 + jstreet * 2 + rstreet * 1;
-        tpl_scores['joy'] = astreet * 2.5 + jstreet * 6.5 + rstreet * 1;
+        tpl_scores['awe'] = astreet * 5 + jstreet * 5 + rstreet * 0;
+        tpl_scores['joy'] = astreet * 0.5 + jstreet * 9 + rstreet * 0.5;
         tpl_scores['relax'] = astreet * 2 + jstreet * 1 + rstreet * 7;
 
         // render graph
